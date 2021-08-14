@@ -1,29 +1,21 @@
-import { makeStyles } from "@material-ui/core";
-import { Fragment } from "react";
-
-const useStyles = makeStyles((theme) => ({
-  headerArea: {
-    // background-color: #fff;
-    // position: absolute;
-    // top: 0px;
-    // left: 0px;
-    // right: 0px;
-    // z-index: 100;
-    // height: 100px;
-    // -webkit-transition: all .5s ease 0s;
-    // -moz-transition: all .5s ease 0s;
-    // -o-transition: all .5s ease 0s;
-    // transition: all .5s ease 0s;
-  }
-}));
+// import { Fragment } from "react";
+import "./index.module.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Menu from "./menu";
 
 const Header = () => {
-  const classes = useStyles();
-
   return (
-    <Fragment>
-      <header className="classes.headerArea">test</header>
-    </Fragment>
+    <header className="header-area header-sticky">
+      <div className="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <Menu />
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
   );
 };
 
