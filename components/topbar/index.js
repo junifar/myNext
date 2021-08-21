@@ -19,7 +19,7 @@ const TopBar = (props) => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          {props.title}
+          {props.title} test
         </Typography>
       </Toolbar>
     </AppBar>
