@@ -7,7 +7,7 @@ import ProductList from '../components/index/product_list'
 export default function Home() {
   return (
     <Fragment>
-      {/* <Navbar/> */}
+      <Navbar/>
       <main>
         <Jumbotron/>
         <ProductList/>
