@@ -1,4 +1,5 @@
-import ContentHeader from "../common/content/header";
+import { Content, ContentHeader, ContentWrapper } from "../common/content";
+import Tebel from "../common/tebel";
 import style from "./index.module.css";
 
 const { CssBaseline, Box } = require("@material-ui/core");
@@ -8,23 +9,20 @@ const DashboardPageIndex = () => {
   return (
     <Fragment>
       <CssBaseline />
-      <ContentHeader title="Contoh" subtitle="Preview" />
-      <section className={style.Content}>
-        <Box className={style.Box}>
-          <div className={style.BoxHeader}>
-            <h2 className={style.BoxTitle}>Sample</h2>
-          </div>
-        </Box>
-      </section>
-      {/* <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
-        <Paper
-          variant="outlined"
-          sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
-          <Typography component="h1" variant="h4" align="center">
-            Checkout
-          </Typography>
-        </Paper>
-      </Container> */}
+      <ContentWrapper>
+        <ContentHeader title="Contoh" subtitle="Preview" />
+        <Content>
+          <Box className={style.Box}>
+            <div className={style.BoxHeader}>
+              <h2 className={style.BoxTitle}>Sample</h2>
+            </div>
+            <div className={style.BoxBody}>
+              <Tebel>Uji COba</Tebel>
+            </div>
+            <div className={style.BoxFooter}>Footer disini ya</div>
+          </Box>
+        </Content>
+      </ContentWrapper>
     </Fragment>
   );
 };
