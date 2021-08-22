@@ -1,0 +1,35 @@
+.Box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 1px 1px rgb(0 0 0 / 10%);
+  border-top-color: #d2d6de;
+  display: block;
+}
+
+.Content {
+  min-height: 250px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.BoxHeader {
+  border-bottom: 1px solid #f4f4f4;
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+
+.BoxTitle {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
