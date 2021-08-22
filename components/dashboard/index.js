@@ -1,9 +1,7 @@
 import { Content, ContentHeader, ContentWrapper } from "../common/content";
-import Tebel from "../common/tebel";
-import style from "./index.module.css";
-
-const { CssBaseline, Box } = require("@material-ui/core");
-const { Fragment } = require("react");
+import { CssBaseline } from "@material-ui/core";
+import Box, { BoxBody, BoxFooter, BoxHeader, BoxTitle } from "../common/box";
+import { Fragment } from "react";
 
 const DashboardPageIndex = () => {
   return (
@@ -12,14 +10,12 @@ const DashboardPageIndex = () => {
       <ContentWrapper>
         <ContentHeader title="Contoh" subtitle="Preview" />
         <Content>
-          <Box className={style.Box}>
-            <div className={style.BoxHeader}>
-              <h2 className={style.BoxTitle}>Sample</h2>
-            </div>
-            <div className={style.BoxBody}>
-              <Tebel>Uji COba</Tebel>
-            </div>
-            <div className={style.BoxFooter}>Footer disini ya</div>
+          <Box>
+            <BoxHeader>
+              <BoxTitle>Sample</BoxTitle>
+            </BoxHeader>
+            <BoxBody>Uji Coba</BoxBody>
+            <BoxFooter>Footer disini ya</BoxFooter>
           </Box>
         </Content>
       </ContentWrapper>

@@ -9,3 +9,36 @@
   border-top-color: #d2d6de;
   display: block;
 }
+
+.BoxHeader {
+  border-bottom: 1px solid #f4f4f4;
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+
+.BoxTitle {
+  display: inline-block;
+  font-size: 18px;
+  margin: 0;
+  line-height: 1;
+}
+
+.BoxBody {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 10px;
+}
+
+.BoxFooter {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top: 1px solid #f4f4f4;
+  padding: 10px;
+  background-color: #fff;
+}
