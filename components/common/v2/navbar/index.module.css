@@ -1,0 +1,43 @@
+.Navbar {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1028;
+  background: #448aff;
+  display: block;
+  min-height: 56px;
+  padding: 0;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.NavbarContainer {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.NavbarLogo {
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  float: left;
+  height: 56px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 235px;
+  padding: 10px;
+  display: block;
+  color: #fff;
+  font-size: 13px;
+}
