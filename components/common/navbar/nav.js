@@ -10,7 +10,7 @@ const Nav = () => {
           color="inherit"
           href="#"
           sx={{ my: 1, mx: 1.5 }}
-          underline="false">
+          underline="none">
           Features
         </Link>
         <Link
@@ -18,7 +18,7 @@ const Nav = () => {
           color="inherit"
           href="#"
           sx={{ my: 1, mx: 1.5 }}
-          underline="false">
+          underline="none">
           {" "}
           Enterprise
         </Link>
@@ -27,7 +27,7 @@ const Nav = () => {
           color="inherit"
           href="#"
           sx={{ my: 1, mx: 1.5 }}
-          underline="false">
+          underline="none">
           {" "}
           Support
         </Link>
