@@ -1,20 +1,47 @@
+import {
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  Container,
+  Grid,
+  Typography,
+} from "@material-ui/core";
 import { Fragment } from "react";
 import Mcard from "../../components/common/m/card";
 import MNavbar from "../../components/common/m/navbar";
+
+const GridList = (props) => {
+  return (
+    <Fragment>
+      <Grid container spacing={1}>
+        <Grid item key="1" xs={12} sm={6} md={3}>
+          <Mcard>Test</Mcard>
+        </Grid>
+        <Grid item key="2" xs={12} sm={6} md={3}>
+          <Mcard>Test</Mcard>
+        </Grid>
+        <Grid item key="3" xs={12} sm={6} md={3}>
+          <Mcard>Test</Mcard>
+        </Grid>
+        <Grid item key="4" xs={12} sm={6} md={3}>
+          <Mcard>Test</Mcard>
+        </Grid>
+        <Grid item key="5" xs={12} sm={6} md={3}>
+          <Mcard>Test</Mcard>
+        </Grid>
+      </Grid>
+    </Fragment>
+  );
+};
 
 const MobilePage = () => {
   return (
     <Fragment>
       <MNavbar title="Dasboard" />
-      <Mcard>
-        <h1>ini Contoh card dulu</h1>
-      </Mcard>
-      <Mcard>
-        <h1>ini Contoh card lagi</h1>
-      </Mcard>
-      <Mcard>
-        <h1>ini Contoh card lagi lagi lagi</h1>
-      </Mcard>
+      <Container sx={{ py: 1 }} maxWidth="lg">
+        <GridList />
+      </Container>
     </Fragment>
   );
 };
