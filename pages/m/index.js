@@ -39,7 +39,13 @@ const MobilePage = () => {
   return (
     <Fragment>
       <MNavbar title="Dasboard" />
-      <Container sx={{ py: 1 }} maxWidth="lg">
+      <Container
+        sx={{
+          py: 1,
+          mt: 1,
+          backgroundColor: (theme) => theme.palette.grey[100],
+        }}
+        maxWidth="lg">
         <GridList />
       </Container>
     </Fragment>
