@@ -28,7 +28,6 @@ const MNavbar = (props) => {
           </Toolbar>
         </AppBar>
       </Box>
-      {props.title}
     </Fragment>
   );
 };
