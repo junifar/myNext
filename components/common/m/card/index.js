@@ -4,7 +4,7 @@ import { Fragment } from "react";
 const Mcard = (props) => {
   return (
     <Fragment>
-      <Card sx={{ minWidth: 275 }} variant="outlined">
+      <Card sx={{ minWidth: 275 }} variant="outlined" raised="true">
         <CardContent>{props.children}</CardContent>
       </Card>
     </Fragment>

@@ -9,6 +9,12 @@ const MobilePage = () => {
       <Mcard>
         <h1>ini Contoh card dulu</h1>
       </Mcard>
+      <Mcard>
+        <h1>ini Contoh card lagi</h1>
+      </Mcard>
+      <Mcard>
+        <h1>ini Contoh card lagi lagi lagi</h1>
+      </Mcard>
     </Fragment>
   );
 };
