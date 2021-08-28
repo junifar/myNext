@@ -1,7 +1,12 @@
 const { Fragment } = require("react");
+const { default: MNavbar } = require("../../components/common/m/navbar");
 
 const MobilePage = () => {
-  return <Fragment>Test</Fragment>;
+  return (
+    <Fragment>
+      <MNavbar title="Dasboard" />
+    </Fragment>
+  );
 };
 
 export default MobilePage;
