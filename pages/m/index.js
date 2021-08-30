@@ -109,8 +109,7 @@ const MobilePage = () => {
       <Container
         sx={{
           py: 1,
-          mt: 1,
-          backgroundColor: (theme) => theme.palette.grey[100],
+          backgroundColor: (theme) => theme.palette.grey[300],
         }}
         maxWidth="lg">
         <Jumbotron param={jumbotronParam} />
